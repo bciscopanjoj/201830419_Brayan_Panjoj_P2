@@ -1,0 +1,13 @@
+funcion entero suma(entero a1, entero a2){
+	variable entero a3 = a1 + a2;
+	imprimir ("el resultado es" + a3);
+	retornar a3;
+}
+
+funcion principal (){
+	imprimir ("probando suma");
+	variable entero sum = (4, 5);
+	
+	
+}
+
