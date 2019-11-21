@@ -451,7 +451,7 @@ tabelaErrosLexicos){
 	var mensagem = "";
 	var classe = "";
 	var div = "<h5>Tabla de Tokens</h5>";
-	div = div + "<table class='hoverable centered responsive-table'><thead><tr><th>id</th><th>Codigo</th><th>Linea</th><th>Columna</th><th>Tabla</th></tr></thead><tbody>";
+	div = div + "<table class='hoverable centered responsive-table table'><thead><tr><th>id</th><th>Codigo</th><th>Linea</th><th>Columna</th><th>Tabla</th></tr></thead><tbody>";
 	
 	if (tabelaTokens.length > 0) {
 		for(var i = 0; i < tabelaTokens.length; i++) {
@@ -470,7 +470,7 @@ tabelaErrosLexicos){
 	}
 	
 	div = "<h5>Tabla de Constantes</h5>";
-	div = div + "<table class='hoverable centered responsive-table'><thead><tr><th>id</th><th>Constante</th><th>Linea</th><th>Columna</th></tr></thead><tbody>";
+	div = div + "<table class='hoverable centered responsive-table table'><thead><tr><th>id</th><th>Constante</th><th>Linea</th><th>Columna</th></tr></thead><tbody>";
 	
 	if (tabelaConstantes.length > 0) {
 		for(var i = 0; i < tabelaConstantes.length; i++) {
@@ -488,7 +488,7 @@ tabelaErrosLexicos){
 	}
 	
 	div = "<h5>Tabla de TextosPlanos</h5>";
-	div = div + "<table class='hoverable centered responsive-table'><thead><tr><th>id</th><th>Texto...</th><th>Linea</th><th>Columna</th></tr></thead><tbody>";
+	div = div + "<table class='hoverable centered responsive-table table'><thead><tr><th>id</th><th>Texto...</th><th>Linea</th><th>Columna</th></tr></thead><tbody>";
 	
 	if (tabelaLiterais.length > 0) {
 		for(var i = 0; i < tabelaLiterais.length; i++) {
@@ -506,7 +506,7 @@ tabelaErrosLexicos){
 	}
 	
 	div = "<h5>Tabla de Identificadores</h5>";
-	div = div + "<table class='hoverable centered responsive-table'><thead><tr><th>id</th><th>Identificador</th><th>Linea</th><th>Columna</th></tr></thead><tbody>";
+	div = div + "<table class='hoverable centered responsive-table table'><thead><tr><th>id</th><th>Identificador</th><th>Linea</th><th>Columna</th></tr></thead><tbody>";
 	
 	if (tabelaIdentificadores.length > 0) {
 		for(var i = 0; i < tabelaIdentificadores.length; i++) {
