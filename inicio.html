@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div id="st-container" class="st-container">
+    <!-- content push wrapper -->
+        <div class="st-pusher">		
+            
+            <body>
+                    <img src="Analizador.jpg" alt="..." class="img-thumbnail"
+                    width: 1400px;
+                    height: 700px;>
+                  
+                
+            </body>
+
+            <div class="st-content"><!-- this is the wrapper for the content -->
+                <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+                    <!-- Top Navigation -->
+                    <div id="st-trigger-effects" class="codrops-top clearfix">
+                        <header class="bg-info codrops-header">
+                            <h1>ANALIZADOR LEXICO MEJORADO<span> 
+                        </header>
+                    </div>
+                    <div class="main clearfix">
+                
+                        <div id='page'  class="column" style="text-align:center!important; width: 100%!important;">
+                            <div class="header">
+                                <h5>INGRESE TEXTO</h5>
+                            </div>
+                            <!--<button onclick="sintatico()">Sintatico</button>-->
+                            <div class="file-upload-div">
+                                <form id="uploading" action="#">
+                                    <div class="file-field input-field">
+                                        <div class="btn">
+                                            <input type="file" onchange="obtenerArchivo(this)"/>
+                                        </div>
+                                        <div class="file-path-wrapper">
+                                            <input class="file-path validate" type="text"/>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!--<div class="ocultar-div" id="status-message">
+                                <h5 id="message-about-code" class="center-align"></h5>
+                            </div>-->
+                            
+                            <div class="row" style='padding-top: 8%;'>
+                                <div class="file-content-div ocultar-div col s6" id="arquivoSaida"></div>
+                                <div id='results-div'>
+                                      <ul class="collapsible col s6" data-collapsible="accordion">
+                                        <li>
+                                          <div class="collapsible-header"><strong><p style='    font-size: large!important;'>Errores Lexicos: <span id='lexico-erros' class=" font-size label label-default"></span></p></strong></div>
+                                          <div class="collapsible-body">
+                                                <div class="espacamento ocultar-div" id="tabelaErrosLexicos"></div> 
+                                          </div>
+
+                                        </li>
+                                        <li>
+                                          <div class="collapsible-header"><p style='    font-size: large!important;'>Errores Sintacticos: <span  id='sintatico-erros' class=" font-size label label-default"></span></p></div>
+                                          <div class="collapsible-body">
+                                          <div class="espacamento ocultar-div" id="tabelaErrosSintatico"></div> 
+                                          </div>
+                                        </li>
+                                        <li>
+                                          <div class="collapsible-header"><p style='    font-size: large!important;'><span  id='code-intermediario'  class="font-size label label-default"></span></p></div>
+                                          <div class="collapsible-body">
+                                                <div class="ocultar-div centralize" style='    padding-top: 8%;     padding-bottom: 10%;' id="botao-download-div">
+                                                    <a class="waves-eff ect waves-light btn center-align" onclick="download_tabelas();">...</a>
+                                                </div>
+                                                 <div class="row center">
+                                                    <div class="espacamento ocultar-div" id="tabelaToken"></div> 
+                                                    <div class="espacamento ocultar-div" id="tabelaConst"></div>
+                                                    <div class="espacamento ocultar-div" id="tabelaLite"></div>
+                                                    <div class="espacamento ocultar-div" id="tabelaVariaveis"></div>
+                                        
+                                                </div> 							
+                                          </div>
+                                        </li>
+                                        </div>
+                        </div>		
+                    <body>
+                            
+                    </body>    
+                        <div class="info">
+                            <p></p>
+                            <p>
+                                
+                                <img src="" class="rounded float-left" alt="..." width: 200px height: 130px;
+>
+                                <a href="https://twitter.com/CiScO_cLg99">201830419 Brayan Panjoj</a><br>
+                            </p>
+                        </div>
+                    </div><!-- /main -->
+                </div><!-- /st-content-inner -->
+            </div><!-- /st-content -->
+        </div><!-- /st-pusher -->
+    </div><!-- /st-container -->
+    <script src="AnalizadorLexico.js"></script>
+</body>
+
+</html>
